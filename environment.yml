@@ -1,0 +1,14 @@
+name: pcdanalysis
+channels:
+  - anaconda-fusion
+  - defaults
+dependencies:
+  - python=3.11
+  - plotly
+  - matplotlib
+  - numpy
+  - scikit-learn
+  - seaborn
+  - pandas
+  - scipy
+prefix: /Users/tamara/anaconda3/envs/pcdanalysis

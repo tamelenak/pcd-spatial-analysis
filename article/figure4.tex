@@ -1,0 +1,36 @@
+\documentclass{standalone}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{varwidth}
+\usepackage[export]{adjustbox}
+
+\begin{document}
+
+\centering
+\begin{minipage}[t]{0.19\textwidth}
+    \textbf{A}\\[4pt]
+    \includegraphics[width=\textwidth]{graphics/ROC_PCD_vs_all.png}
+\end{minipage}
+\begin{minipage}[t]{0.19\textwidth}
+    \textbf{}\\[4pt]
+    \includegraphics[width=\textwidth]{graphics/ROC_PCD_vs_SCA.png}
+\end{minipage}
+\begin{minipage}[t]{0.19\textwidth}
+    \textbf{}\\[4pt]
+    \includegraphics[width=\textwidth]{graphics/ROC_PCD_vs_Control.png}
+\end{minipage}
+\begin{minipage}[t]{0.19\textwidth}
+    \textbf{}\\[4pt]
+    \includegraphics[width=\textwidth]{graphics/ROC_SCA_vs_all.png}
+\end{minipage}
+\begin{minipage}[t]{0.19\textwidth}
+    \textbf{}\\[4pt]
+    \includegraphics[width=\textwidth]{graphics/ROC_SCA_vs_Control.png}
+\end{minipage}
+\begin{minipage}[t]{0.95\textwidth}
+    \textbf{B}\\[4pt]
+    \includegraphics[width=\textwidth]{graphics/feature_distributions.png}
+\end{minipage}
+
+\end{document}
